@@ -2,5 +2,5 @@
 
 var aka = require('../lib/aka.js');
 
-aka.awesome();
-// => awesome
+aka.get();
+// => ruby-ocelot

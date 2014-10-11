@@ -1,16 +1,17 @@
 {
   "name": "aka",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "lib/aka.js",
+  "bin": {
+    "aka": "./bin/aka"
+  },
   "description": "Generate codenames easily!",
-  
-      "homepage": "https://github.com/phillipalexander/aka",
-    
-    "bugs": "https://github.com/phillipalexander/aka/issues",
+  "homepage": "https://github.com/phillipalexander/aka",
+  "bugs": "https://github.com/phillipalexander/aka/issues",
   "author": {
     "name": "Phillip Alexander",
-    "email": "git@phillipalexander.io"  ,
-        "url": "phillipalexander.io" 
+    "email": "git@phillipalexander.io",
+    "url": "phillipalexander.io"
   },
   "repository": {
     "type": "git",
@@ -21,8 +22,8 @@
     "lib"
   ],
   "keywords": [
-    "aka"  ,
-        "codename" 
+    "aka",
+    "codename"
   ],
   "devDependencies": {
     "grunt-contrib-jshint": "^0.10.0",
@@ -31,9 +32,10 @@
     "load-grunt-tasks": "^0.4.0",
     "time-grunt": "^0.3.1",
     "grunt-mocha-cli": "^1.9.0",
-    "jshint-stylish": "^0.2.0" 
+    "jshint-stylish": "^0.2.0"
   },
   "scripts": {
-    "test": "grunt" 
-  } 
+    "test": "grunt"
+  },
+  "dependencies": {}
 }

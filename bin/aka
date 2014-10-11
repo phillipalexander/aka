@@ -2,13 +2,17 @@
 
 'use strict';
 
-var aka = require('./aka');
+var aka = require('../lib/aka.js');
 
 var userArgs = process.argv;
 var searchParam = userArgs[2];
 
-if (userArgs.indexOf('-h') !== -1 || userArgs.indexOf('--help') !== -1 || searchParam === undefined) {
-    return console.log('cli help');
+if (userArgs.length === 2) {
+  console.log(aka.get())
+}
+
+if (userArgs.indexOf('-h') !== -1 || userArgs.indexOf('--help') !== -1) {
+    return console.log('aka help');
 }
 
 if (userArgs.indexOf('-v') !== -1 || userArgs.indexOf('--version') !== -1) {

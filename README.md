@@ -1,26 +1,31 @@
-#  [![Build Status](https://secure.travis-ci.org/phillipalexander/aka.png?branch=master)](http://travis-ci.org/phillipalexander/aka)
+# AKA
 
-> Generate codenames easily!
+> Based on [PROJECT: CODENAME](https://github.com/zachwlewis/projectcodename)
 
+AJ-43K7-99X
 
+__ATTN:__ [REDACTED]
+__PROJECT:__ [REDACTED]
+
+TO PREVENT ANY POSSIBLE BREACH OF SECURITY OCCURING IN [REDACTED],
+ANY DISCUSSION OF [REDACTED] OUTSIDE OF [REDACTED] IS
+STRICTLY FORBIDDEN. IN THE EVENT OF EMERGENCY, [REDACTED] HAS
+BEEN CREATED TO ALLOW EXPEDITED CREATION OF SECURE, APPROVED CODENAMES
+FOR ANY CLASSIFIED PROJECT TAKING PLACE IN [REDACTED].
+
+[REDACTED]
+[REDACTED], UNITED STATES ARMY
+
+ 
 ## Getting Started
 
-Install the module with: `npm install aka`
-
-```js
-var aka = require('aka');
-aka.awesome(); // "awesome"
-```
-
-Install with cli command
+Install the module with: `npm install -g aka`
 
 ```sh
 $ npm install -g aka
-$ aka --help
-$ aka --version
+$ aka
+# --> agate-pony
 ```
-
-
 
 
 ## Documentation
@@ -37,8 +42,9 @@ _(Coming soon)_
 
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
 
-
+<!-- 
 ## License
 
 Copyright (c) 2014 Phillip Alexander  
-Licensed under the MIT license.
+Licensed under the MIT license. 
+-->
