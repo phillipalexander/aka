@@ -1,5 +1,7 @@
 # AKA
 
+Secret Codename generator. Can be used as a Node module or from the command line.
+
 > Based on [PROJECT: CODENAME](https://github.com/zachwlewis/projectcodename)
 
 AJ-43K7-99X
