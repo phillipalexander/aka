@@ -4,11 +4,12 @@ Secret Codename generator. Can be used as a Node module or from the command line
 
 > Based on [PROJECT: CODENAME](https://github.com/zachwlewis/projectcodename)
 
+
+```
 AJ-43K7-99X
 
-__ATTN:__ [REDACTED]
-<br>
-__PROJECT:__ [REDACTED]
+ATTN: [REDACTED]
+PROJECT: [REDACTED]
 
 TO PREVENT ANY POSSIBLE BREACH OF SECURITY OCCURING IN [REDACTED],
 ANY DISCUSSION OF [REDACTED] OUTSIDE OF [REDACTED] IS
@@ -17,10 +18,9 @@ BEEN CREATED TO ALLOW EXPEDITED CREATION OF SECURE, APPROVED CODENAMES
 FOR ANY CLASSIFIED PROJECT TAKING PLACE IN [REDACTED].
 
 [REDACTED]
-<br>
 [REDACTED], UNITED STATES ARMY
+```
 
- 
 ## Getting Started
 
 Install the module with: `npm install -g aka`
